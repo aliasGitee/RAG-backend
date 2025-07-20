@@ -1,6 +1,6 @@
 # RAG Backend
 
-This project provides a simple RAG (Retrieval-Augmented Generation) backend service. It leverages the `deepdoc` library for sophisticated layout analysis and utilizes Vision Language Models (VLMs) for deep content understanding.
+This project provides a simple RAG (Retrieval-Augmented Generation) backend service. It leverages the deepdoc for sophisticated layout analysis and utilizes Vision Language Models (VLMs) for deep content understanding.
 
 ## Core Functionality
 
@@ -8,7 +8,7 @@ The primary goal of this backend is to intelligently parse complex documents, su
 
 ### Key Features
 
-- **Layout-Aware Parsing**: Powered by `deepdoc`, the service accurately identifies the layout of documents, distinguishing between different content blocks.
+- **Layout-Aware Parsing**: Powered by deepdoc, the service accurately identifies the layout of documents, distinguishing between different content blocks.
 - **Element Recognition**: It can specifically recognize and isolate:
   - **Text Paragraphs**: Standard text blocks.
   - **Tables & Captions**: Detects tabular data and their associated titles/captions.
