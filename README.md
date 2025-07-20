@@ -1,4 +1,4 @@
-# DeepDoc RAG Backend
+# RAG Backend
 
 This project provides a simple RAG (Retrieval-Augmented Generation) backend service. It leverages the `deepdoc` library for sophisticated layout analysis and utilizes Vision Language Models (VLMs) for deep content understanding.
 
