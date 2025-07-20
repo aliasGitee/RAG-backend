@@ -238,8 +238,8 @@ class model_config():
         self.vlm_model = vlm_model
 
 def get_chunks(inputs="/root/test_qw", root_path="/root/myData4",
-               api_key = "sk-73e16ce211754324828584932b9f1caf",
-               base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+               api_key = "api_key",
+               base_url="base_url",
                vlm_model="qwen2.5-vl-7b-instruct"
                ):
     

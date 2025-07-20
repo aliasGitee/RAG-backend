@@ -10,14 +10,14 @@ app = FastAPI()
 class ChunkRequest(BaseModel):
     inputs: str = "/root/RAGappv0/example_data"
     root_path: str = "/root/myData4"
-    api_key: str = "sk-73e16ce211754324828584932b9f1caf"
-    base_url: str = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    api_key: str = "api_key"
+    base_url: str = "base_url"
     vlm_model: str = "qwen2.5-vl-7b-instruct"
 
 class EmbeddingRequest(BaseModel):
     root_path: str = "/root/myData4"
-    api_key: str = "sk-73e16ce211754324828584932b9f1caf"
-    base_url: str = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    api_key: str = "api_key"
+    base_url: str = "base_url"
     model_name: str = "text-embedding-v4"
     save_path: str ="/llama_index_qw1024"
     dim: int = 1024
@@ -27,8 +27,8 @@ class RetrieverRequest(BaseModel):
     embedding_path: str = "/llama_index_qw1024"
     model_name: str = "text-embedding-v4"
     dim: int = 1024
-    base_url: str = "https://dashscope.aliyuncs.com/compatible-mode/v1"
-    api_key: str = "sk-73e16ce211754324828584932b9f1caf"
+    base_url: str = "base_url"
+    api_key: str = "api_key"
     vlm_model: str = "qwen-vl-max-latest"   
     translate_model: str = "qwen2.5-72b-instruct"  
     prompt: str = "表格2中， Llama-3-70B在各个测试集上的表现怎么样？", 
