@@ -1,0 +1,14 @@
+uvicorn main:app --reload
+
+curl -X POST "http://127.0.0.1:8000/generate-chunks" \
+-H "Content-Type: application/json" \
+-d '{"inputs": "/root/test_qw","root_path": "/root/myData4","api_key": "sk-73e16ce211754324828584932b9f1caf","base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1","vlm_model": "qwen2.5-vl-7b-instruct"}'
+
+curl -X POST "http://127.0.0.1:8000/generate-embeddings" \
+-H "Content-Type: application/json" \
+-d '{"root_path": "/root/myData4","api_key": "sk-73e16ce211754324828584932b9f1caf","base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1","model_name": "text-embedding-v4","save_path": "/llama_index_qw1024","dim": 1024}'
+
+
+curl -X POST "http://127.0.0.1:8000/generate-retriever" \
+-H "Content-Type: application/json" \
+-d '{"prompt": "表格2中， Llama-3-70B在各个测试集上的表现怎么样？", "topk": 3}'

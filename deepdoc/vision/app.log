@@ -1,0 +1,40 @@
+2025-07-18 10:56:18,377 - my_logger - INFO - 共读取 4 个chunk(段落)内容:
+2025-07-18 10:56:18,377 - my_logger - INFO - 文档1:
+The Qwen2 series consists of models of 5 sizes, which are Qwen2-0.5B, Qwen2-1.5B, Qwen2-7B, Qwen2-57B-A14B, and Qwen2-72B. Table 1 lists the hyper-parameters and important information, e.g., the ...
+2025-07-18 10:56:18,377 - my_logger - INFO - 文档2:
+The flagship model, Qwen2-72B, showcases remarkable performance: 84.2 on MMLU, 37.9 on GPQA, 64.6 on HumanEval, 89.5 on GSM8K, and 82.4 on BBH as a base language model. The instruction-tuned vari...
+2025-07-18 10:56:18,377 - my_logger - INFO - 文档3:
+The post-training data primarily consists of two components: demonstration data $\mathcal{D} = \left\{(x_i, y_i)\right\}$ and preference data $\mathcal{P} = \left\{(x_i, y_i^+, y_i^-)\right\}$, w...
+2025-07-18 10:56:18,377 - my_logger - INFO - 文档4:
+and Qwen1.5-32B (Qwen Team, 2024a), both of which have approximately 30 billion parameters. The results are shown in Table 3. We anticipate that Qwen2-57B-A14B, which activates 14 billion paramet...
+2025-07-18 11:00:32,979 - my_logger - INFO - 检索到子chunk
+
+2025-07-18 11:04:27,932 - my_logger - INFO - 检索到子chunk
+
+2025-07-18 11:04:27,932 - my_logger - INFO - page_content='The Qwen2 series consists of models of 5 sizes, which are Qwen2-0.5B, Qwen2-1.5B, Qwen2-7B, Qwen2-57B-A14B, and Qwen2-72B.' metadata={'source_idx': 43}
+2025-07-18 11:04:27,933 - my_logger - INFO - page_content='The flagship model, Qwen2-72B, showcases remarkable performance: 84.2 on MMLU, 37.9 on GPQA, 64.6 on HumanEval, 89.5 on GSM8K, and 82.4 on BBH as a base language model.' metadata={'source_idx': 6}
+2025-07-18 11:04:27,933 - my_logger - INFO - page_content='Qwen2-72B In terms of the largest model of Qwen2, we compare Qwen2-72B with competitive baseline open-weight models, including Mixtral-8x22B (Jiang et al., 2024), Llama-3-70B (AI@Meta, 2024), as well as Qwen1.5-72B (Qwen Team, 2024a) and Qwen1.5-110B (Qwen Team, 2024b).' metadata={'source_idx': 90}
+2025-07-18 11:04:27,933 - my_logger - INFO - page_content='Table 1 lists the hyper-parameters and important information, e.g., the number of pre-trained tokens.' metadata={'source_idx': 43}
+2025-07-18 11:04:27,933 - my_logger - INFO - page_content='The set $\mathcal{D}$ is utilized in SFT, whereas $\mathcal{P}$ is employed in RLHF.' metadata={'source_idx': 60}
+2025-07-18 11:04:27,933 - my_logger - INFO - page_content='The results are shown in Table 3.' metadata={'source_idx': 95}
+2025-07-18 11:04:27,935 - my_logger - INFO - 共读取 5 个chunk(段落)内容:
+2025-07-18 11:04:27,935 - my_logger - INFO - 文档1:
+The Qwen2 series consists of models of 5 sizes, which are Qwen2-0.5B, Qwen2-1.5B, Qwen2-7B, Qwen2-57B-A14B, and Qwen2-72B. Table 1 lists the hyper-parameters and important information, e.g., the ...
+2025-07-18 11:04:27,936 - my_logger - INFO - 文档2:
+The flagship model, Qwen2-72B, showcases remarkable performance: 84.2 on MMLU, 37.9 on GPQA, 64.6 on HumanEval, 89.5 on GSM8K, and 82.4 on BBH as a base language model. The instruction-tuned vari...
+2025-07-18 11:04:27,936 - my_logger - INFO - 文档3:
+Qwen2-72B In terms of the largest model of Qwen2, we compare Qwen2-72B with competitive baseline open-weight models, including Mixtral-8x22B (Jiang et al., 2024), Llama-3-70B (AI@Meta, 2024), as ...
+2025-07-18 11:04:27,936 - my_logger - INFO - 文档4:
+The post-training data primarily consists of two components: demonstration data $\mathcal{D} = \left\{(x_i, y_i)\right\}$ and preference data $\mathcal{P} = \left\{(x_i, y_i^+, y_i^-)\right\}$, w...
+2025-07-18 11:04:27,936 - my_logger - INFO - 文档5:
+and Qwen1.5-32B (Qwen Team, 2024a), both of which have approximately 30 billion parameters. The results are shown in Table 3. We anticipate that Qwen2-57B-A14B, which activates 14 billion paramet...
+2025-07-18 11:04:27,936 - my_logger - INFO - 检索到的图片:
+['Table 3', 'Table 2', 'Table 1']
+
+2025-07-18 11:04:33,945 - my_logger - INFO - LLM的回答:
+Based on Table 1, the **Hidden Size** of the **72B model** is **8,192**, and the **number of layers** is **80**. 
+
+So, the answers are:
+
+- **Hidden Size**: **8,192**
+- **Number of Layers**: **80**
